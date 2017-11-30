@@ -1,0 +1,60 @@
+/* all page css */
+body {
+    background-color: rgb(29, 25, 25);
+    background-color: white;
+}
+.main {
+    width: 75%;
+    margin: 50px auto;
+    padding: 50px 70px 50px 70px;
+    background: rgb(206, 211, 214); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(206, 211, 214), rgb(255, 255, 255)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(206, 211, 214), rgb(255, 255, 255)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(206, 211, 214), rgb(255, 255, 255)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(206, 211, 214), rgb(255, 255, 255)); /* Standard syntax */
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 2px 2px rgb(29, 25, 25);
+    border: 1px solid rgb(29, 25, 25);
+}
+ul {
+    display: block;
+    float: right;
+    text-align: right;
+    list-style-type: none;
+    padding-top: 15px;
+}
+.navigation {
+    position: relative;
+    display: block;
+    padding-bottom: 130px;
+    border-bottom: 3px black solid;
+}
+.oval h1 {
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    padding: 20px;
+    background-image:url("../assets/aqua-button-hi.png");
+    background-repeat: no-repeat;
+    background-position: -75px -5px;
+    border-radius: 20px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    box-shadow: 3px 2px 10px rgb(64, 66, 66);
+}
+h1 {
+    display: block;
+    float: left;
+    color: blue;
+}
+h1, p, a, td, table, th, ul, li {
+    font-family: 'Poppins', sans-serif;   
+}
+.bookTitle a, .matches p, .ShowContent, .underline {
+    font-size: 18px;
+}
+
+
+

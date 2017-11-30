@@ -1,0 +1,86 @@
+/* newStyle css stylesheet */
+
+.eb input[type=text] {
+    border: 3px solid red;
+}
+
+.errorPrint {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 210px;
+    background-color: red;
+    border: 2px solid black;
+    z-index: 1;   
+    width: 65%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+/* code for nav */
+li.new a {  
+    margin: 12px;
+    text-decoration: none;
+    color: rgb(150, 185, 252);
+}
+li.home a {  
+    margin: 12px;
+    text-decoration: none;
+    color: rgb(150, 185, 252);
+}
+li.new {
+    display: inline-block;
+    border: 2px solid rgb(150, 185, 252);
+    border-radius: 30px;
+    background-color: black;
+    box-shadow: 3px 2px 10px rgb(64, 66, 66);
+    margin-right: 20px;
+}
+li.home {
+    display: inline-block;
+    border:2px solid rgb(150, 185, 252);
+    border-radius: 30px;
+    background-color: black;
+    box-shadow: 3px 2px 10px rgb(64, 66, 66);
+}
+li.new, li.home, input[type=submit] {
+    -webkit-transition: background-color .4s;
+    -moz-transition: background-color .4s;
+    transition: background-color .4s;
+}
+li.new:hover, li.home:hover, input[type=submit]:hover {
+    background-color: gray;
+}
+li a {
+    margin-right: 20px;
+}
+
+/*form css*/
+input[type=submit] {
+    font-size: 18px;
+    margin: 12px;
+    text-decoration: none;
+    color: rgb(150, 185, 252);
+    display: inline-block;
+    border: 2px solid rgb(150, 185, 252);
+    border-radius: 30px;
+    background-color: black;
+    box-shadow: 3px 2px 10px rgb(64, 66, 66);
+    margin-right: 20px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    outline:none;
+}
+.newBox {
+    display: flex; 
+    justify-content: center;
+    margin-top:40px;
+}
+.choiceBox {
+    display: flex;
+    justify-content: center;
+}
